@@ -1,0 +1,127 @@
+/* start of universal selector */
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+/* end of universal selector */
+
+/* start of body */
+body{
+  display:flex;
+  line-height:40px;
+  font-size:21px;
+}
+/* end of body */
+
+/* start of main */
+#main{
+  background:#eee;
+  margin:auto;
+  broder-radius:5px;
+  padding:auto;
+  width:80%;
+}
+/* end of main */
+
+/* start of title*/
+#title{
+  line-height:3.5rem;
+  text-align:center;
+  min-height:8rem;
+}
+
+#title h1{
+  font-size:45px;
+}
+
+#title p{
+  font-size:18px;
+}
+/* end of title */
+
+/* start of img-div */
+#img-div{
+  text-align:center;
+  margin:.2rem 2rem .5rem 2rem;
+  background:#fff;
+  padding:10px;
+  min-height:30rem;
+  border-radius:5px;
+}
+
+img{
+  margin-top:3rem;
+  width:80%;
+}
+
+#img-caption{
+  font-size:19px;
+  margin: 0 2rem 0 2rem;
+  line-height:1.5rem;
+  margin-bottom:1rem;
+}
+/* end of ig-div */
+
+/* start of tribute-info */
+#tribute-info{
+  padding:1rem;
+  margin:2rem 10rem 2rem 10rem;
+}
+
+#info-header{
+  text-transform:uppercase;
+  color:#ddd;
+  font-size:30px;
+  font-weight:bold;
+  margin-bottom:.5rem;
+  border-bottom:1px solid #ccc;
+  line-height:4rem;
+}
+
+#timeline{
+  margin-top:2rem;
+  margin-bottom:3rem;
+  line-height:3.5rem;
+}
+
+li{
+  list-style:none;
+}
+
+#p-quote{
+  font-size:24px;
+}
+
+#quote{
+  font-size:20px;
+}
+/* start of tribute-info */
+
+/* start of p-link  */
+#p-link{
+  margin-left:5rem;
+  word-spacing:2.5px;
+  font-size:25px;
+}
+
+#tribute-link{
+  text-decoration:none;
+  color:#006;
+}
+
+#tribute-link:hover{
+  color:#aaa;
+  font-size:24px;
+}
+/* end of p-link */
+
+
+
+
+
+
+
+
+
+
