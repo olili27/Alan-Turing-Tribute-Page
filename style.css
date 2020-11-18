@@ -75,7 +75,7 @@ img{
   font-weight:bold;
   margin-bottom:.5rem;
   border-bottom:1px solid #ccc;
-  line-height:4rem;
+  line-height:3rem;
 }
 
 #timeline{
@@ -133,6 +133,19 @@ li{
     line-height:1.5rem;
     margin-bottom:0.4rem;
   }
+
+  #tribute-info{
+    margin:2rem 1rem 2rem 1rem;
+  }
+
+  #info-header{
+    line-height:2rem;
+  }
+
+  #timeline{
+      line-height:2.5rem;
+  }
+  
 }
 
 /* media querry at 700px */
