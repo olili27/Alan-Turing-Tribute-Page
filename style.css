@@ -8,7 +8,6 @@
 
 /* start of body */
 body{
-  display:flex;
   line-height:40px;
   font-size:21px;
 }
@@ -18,7 +17,7 @@ body{
 #main{
   background:#eee;
   margin:auto;
-  broder-radius:5px;
+  border-radius:5px;
   padding:auto;
   width:80%;
 }
@@ -61,7 +60,7 @@ img{
   line-height:1.5rem;
   margin-bottom:1rem;
 }
-/* end of ig-div */
+/* end of img-div */
 
 /* start of tribute-info */
 #tribute-info{
@@ -96,7 +95,7 @@ li{
 #quote{
   font-size:20px;
 }
-/* start of tribute-info */
+/* end of tribute-info */
 
 /* start of p-link  */
 #p-link{
@@ -116,7 +115,26 @@ li{
 }
 /* end of p-link */
 
+/* media querry at 700px */
+@media(max-width:700px){
+  body{
+    line-height:25px;
+    font-size:18px;
+  }
 
+  #title p{
+    line-height:1.8rem;
+  }
+
+  #img-caption{
+    font-size:17px;
+    margin: 0 0.8rem 0 0.8rem;
+    line-height:1.5rem;
+    margin-bottom:0.4rem;
+  }
+}
+
+/* media querry at 700px */
 
 
 
